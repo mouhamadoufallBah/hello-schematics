@@ -5,6 +5,7 @@ import { Rule, SchematicContext, Tree } from '@angular-devkit/schematics';
 // per file.
 export function helloSchematics(_options: any): Rule {
   return (tree: Tree, _context: SchematicContext) => {
+    tree.create('hello.txt', 'Ceci est un fichier généré par mon schématics');
     return tree;
   };
 }
