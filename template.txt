@@ -1,0 +1,2 @@
+Bonjour, Moohamad !
+Ceci est un fichier généré par Angular Schematics.

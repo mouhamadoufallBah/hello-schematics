@@ -1,0 +1,2 @@
+Bonjour, <%= nom %> !
+Ceci est un fichier généré par Angular Schematics.
